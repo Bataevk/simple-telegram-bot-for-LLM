@@ -3,10 +3,10 @@ import requests
 import time
 from json import loads
 
-SERVER_HOST = 'http://127.0.0.1:5000'
+SERVER_HOST = 'YOUR_SERVER_HOST'
 
 # Создаём экземпляр бота с токеном
-API_TOKEN = '7886193892:AAFvRos8PvwtwSUgtqUW4JwtSC19sY580Mc'
+API_TOKEN = 'YOUR_API_TOKEN'
 
 bot = telebot.TeleBot(API_TOKEN)
 
